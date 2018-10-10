@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900');
+
+html, body{font-family: 'Montserrat', sans-serif; background: #fff;}
+
+a:hover, a:active, a:focus{ text-decoration: none; outline: none !important;}
+input:active, input:focus, textarea:active, textarea:focus{ outline: none; box-shadow: none;}
+
+/*header*/
+.menu-area {width: 100%; display: inline-block; text-align: right; vertical-align: middle;}
+.search-icon {width: 50px; height: 50px; display: inline-block; vertical-align: middle; text-align: center; line-height: 50px; cursor: pointer;}
+.menu-area ul li a {padding: 24px; display: block; text-transform: uppercase; color: #000; position: relative; z-index: 0; font-family: 'Montserrat', sans-serif; font-weight: 600;}
+.menu-area ul li {display: inline-block;}
+.menu-area ul li a:after {content: '';height: 0%;width: 100%;background: rgba(0, 0, 0, 0.05);position: absolute;top: 0;z-index: -1;transform: skewX(-25deg);transition: 0.3s ease;bottom: 0;margin: auto; left: 0;}
+.menu-area ul li:hover a:after {height: 100%;}
+.custom-header {padding: 10px 0;-webkit-clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);background: #f6f6f6;position: fixed;top: 0;z-index: 9;left: 0;right: 0;height: 110px;}
+.toogler {display: none; vertical-align: middle;}
+.custom-header .row {align-items: center;}
+/*end*/
+
+
+
+/*banner*/
+.banner-area {max-height: 100vh; overflow: hidden; position: relative; z-index: 0;-webkit-clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%); clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%); margin-top: 50px;}
+.banner-area.section img { width: 100%;}
+.banner-text {position: absolute; top: 0;z-index: 2; color: #fff; left: 0; right: 0; width: 100%; background: rgba(0, 0, 0, 0.55); height: 100%; width: 50%;}
+.banner-caption h1 {font-size: 60px; text-transform: capitalize; font-weight: 800; font-family: 'Montserrat', sans-serif; line-height: normal; text-shadow: 0 0 30px rgba(0,0,0,0.2);}
+.banner-caption p {font-size: 18px; padding: 10px 0; line-height: 30px; font-family: 'Montserrat', sans-serif; text-shadow: 0 0 30px rgba(0,0,0,0.2);}
+.banner-caption {position: absolute; top: 60%; transform: translate(0,-60%); padding: 30px;  max-width: 600px; margin: 0 auto; left: 0; right: 0;}
+.banner-caption a:hover {background: #000; color: #fff;}
+.banner-caption a {color: #fff;display: block;border: 1px solid #000;height: 50px;line-height: 50px;text-align: center;font-size: 16px;max-width: 150px;background: #000;font-family: 'Montserrat', sans-serif;font-weight: 600;transition: 0.3s ease; margin-top: 10px;}
+/*end*/
+
+/*heading*/
+.heading-area h2:after {content: '';height: 5px;width: 50px;border-style: solid;border-color: #333;display: block;left: 0;right: 0;margin: 10px auto 0;border-width: 1px 0 1px 0px;}
+/*end*/
+
+/*video area*/
+.video:after {content: ''; display: block; padding-bottom: 56.2%;}
+.video {position: relative;width: 100%;margin: 0 auto;border: 20px solid black;border-radius: 10px;}
+.video iframe {position: absolute; width: 100%; height: 100%;}
+.video-area.section {padding: 50px 0;}
+.vidoe-content h1 {font-family: 'Montserrat', sans-serif; color: #000; font-size: 46px; font-weight: 900; text-align: left; line-height: normal;}
+/*end*/
+
+/*adverstising-area*/
+/*.expansive-text {background: #f1f1f1;height: 100%;padding: 50px;margin: 0 -15px; position: relative;}
+.expansive-advertising-img {margin: 0 -15px;}
+.expansive-advertising-img img {width: 100% !important; display: block; max-width: 100% !important;}
+.expansive-text h2 { font-size: 46px; font-family: 'Montserrat', sans-serif; font-weight: 900; color: #000; margin-bottom: 20px;}
+.text-area {max-width: 640px; margin: 0 auto; position: absolute; left: 0; right: 0; top: 50%; transform: translate(0, -50%);}
+.text-area p {font-size: 18px; line-height: 30px; margin-bottom: 10px; font-family: 'Montserrat', sans-serif;}/*
+/*end*/
+
+/*technology*/
+/*.technology-area{ position: relative; z-index: 0; padding: 5% 0 0;}
+.technology-area:after {position: absolute; content: ''; background: url(../images/tesla-semi-truck-lastwagen.jpg) no-repeat #111;background-attachment: fixed;background-size: cover;background-blend-mode: luminosity; z-index: -1;height: 100%;width: 100%;top: 0;opacity: 0.3;}
+.technology h2 {font-size: 70px;font-family: 'Montserrat', sans-serif;color: #000;font-weight: 900;}
+.technology h4 {font-size: 22px;font-family: 'Montserrat', sans-serif;color: #000;}
+.technology p {line-height: 24px;font-size: 16px;color: #000;text-transform: uppercase;}
+.technology-area .row {align-items: center;}
+.technology-img { max-width: 950px;  margin: 0 auto;}
+.technology { padding: 30px 0; background: linear-gradient(90deg,#8eeb68,#529d35); margin-top: -100px; padding-top: 110px; text-align: center;}*/
+/*end*/
+
+/*truking*/
+/*.trucking-text h3 {font-size: 22px;color: #fff;position: absolute;left: 0;right: 0;top: 50%;transform: translate(0, -50%);font-family: 'Montserrat', sans-serif;padding: 15px;font-weight: 800;text-shadow: 0 3px 5px rgba(0,0,0,0.1);}
+.trucking-text {background: #111;height: 100%;text-align: center;position: relative; -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0 100%);clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0 100%); transition: 0.3s ease}
+.trucking-text:hover { -webkit-clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 90%); clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 90%);}
+.trucking-area {padding: 5% 0;}
+.trucking-area > .container > .row {align-items: center;}
+.trucking-area-text p {font-size: 24px; line-height: 30px; font-family: 'Montserrat', sans-serif; color: #000;}
+.trucking-area-text h4 {font-size: 60px; line-height: normal; font-family: 'Montserrat', sans-serif; color: #000; font-weight: 900; padding: 10px 0;}*/
+/*end*/
+
+/*footer area*/
+.uppter-footer {background: #111;color: #fff;padding:100px 0 50px;text-align: center;-webkit-clip-path: polygon(0% 14%, 100% 0%, 100% 100%, 0% 100%);clip-path: polygon(0% 14%, 100% 0%, 100% 100%, 0% 100%);}
+.lower-footer:after { display: none; content: '';height: 100%;width: 100%;position: absolute;background: url(../images/max-bender-465003-unsplash.jpg) no-repeat #111;background-attachment: fixed;background-position: 100% 100%; background-size: cover; top: 0;z-index: -1; opacity: 0.6;}
+.lower-footer {padding: 0 0 0;position: relative;z-index: 0; background: #000;}
+.uppter-footer h3 { font-size: 36px; font-family: 'Montserrat', sans-serif; font-weight: 700; margin-bottom:10px;}
+.footer-links p {font-size: 18px; line-height: normal; font-family: 'Montserrat', sans-serif;}
+.footer-links ul li a i {font-size: 22px;color: #fff;line-height: 50px;}
+.footer-links ul li a {font-size: 0;display: block;height: 50px;width: 50px;text-align: center;line-height: 50px;border: 1px solid #fff;border-radius: 100px; transition: 0.3s ease;}
+.footer-links ul li {display: inline-block;margin: 0 5px;}
+.footer-links p a {color: #fff;}
+.footer-links .icon {font-size: 50px; margin: 10px 0;}
+.footer-links ul{ margin: 10px 0;}
+.footer-links {padding: 20px 0 0;}
+.form-field {position: relative; padding: 5px 0;}
+.form-field input {width: 100%;height: 45px;border: 0;border-radius: 0;background: transparent;border-bottom: 1px solid #000; font-size: 16px;}
+.contact-form-area {background: #fff; padding: 50px; top: -100px; box-shadow: 0 5px 25px rgba(0,0,0,.5); position: relative;}
+.form-field textarea {width: 100%; border: 0; border-bottom: 1px solid #000; border-radius: 0; height: 155px; font-size: 16px;}
+.form-field input[type="submit"]:hover {background: transparent; color: #000;}
+.form-field input[type="submit"] {background: #000;font-size: 18px;border: 0;text-transform: uppercase;color: #fff;border-radius: 0;max-width: 130px;transition: 0.3s ease;border: 1px solid #000;}
+.uppter-footer h3 a {color: #58a53a;}
+.copy-rights p a {color: #58a53a;text-transform: uppercase;font-family: 'Montserrat', sans-serif;}
+.copy-rights p {margin: 0;font-size: 14px; line-height: normal;}
+.copy-rights {text-align: center;color: #fff;padding: 20px 0;font-family: 'Montserrat', sans-serif; position: relative;}
+.footer-links ul li a:hover i { color: #000;}
+.footer-links ul li a:hover {background: #fff; color: #000 !important;}
+.footer-links .icon {display: block;float: none;margin: 0 auto;}
+/*end*/
+
+
+/*driver page*/
+.driver-page-area {background: #e5e5e5; clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%); -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);}
+.icon img {width: 100%; transition: 0.3s ease}
+.icon {width: 60px; float: left; height: 60px; position: relative; overflow: hidden;}
+.heading-area p {color: #676767;font-size: 16px;padding: 5px 0;}
+.heading-area h2 {font-size: 36px;color: #000;font-weight: 800;}
+.heading-area {padding: 50px 0;text-align: center;}
+.driver-text:after {content: ''; display: block; clear: both;}
+.text {width: calc(100% - 60px); float: left; padding: 0 0 0 15px;}
+.text p {font-size: 14px;line-height: 24px;color: #676767;}
+.text h4 {font-weight: 600;color: #000;font-size: 18px;font-family: 'Montserrat', sans-serif;}
+.driver-text {margin: 10px 0;padding: 10px;}
+.driver-text:hover .icon img {transform: translate(0, -62px);}
+/*end*/
+
+/*how to get paid*/
+.how-to-get-paid {margin: 0 -15px;background: rgba(3, 3, 3, 0.8901960784313725);height: 100%;color: #fff;padding: 5%;}
+.how-to-get-paid ul li {font-size: 30px;padding: 30px 0; font-family: 'Montserrat', sans-serif; font-weight: 800;}
+.driver-form-area {background: url(../images/max-bender-465003-unsplash.jpg);margin: 0 -15px;height: 100%;background-size: cover; padding: 5% 0; background-attachment: fixed;background-position: center;}
+.driver-signup-form {background: #fff;max-width: 85%;padding: 15px; margin: 0 auto; border-radius: 5px;box-shadow: 0 0px 50px rgba(255,255,255,0.3);}
+.how-to-get-paid ul li span {width: calc(100% - 40px);display: inline-block;vertical-align: top;}
+.how-to-get-paid ul li i {width: 30px;height: 30px;text-align: center;display: inline-block;vertical-align: top;}
+.driver-signup-form h3 {color: #000;text-transform: uppercase;font-size: 24px;font-family: 'Montserrat', sans-serif;font-weight: 900; text-align: center;}
+.driver-signup-form p {font-size: 16px;color: #676767;padding: 5px 0; text-align: center;}
+.form-fields-area {max-width: 600px;margin: 0 auto;}
+.form-filed {padding: 5px 0;}
+.form-filed input {width: 100%;height: 40px;border-radius: 0;border: 0;border-bottom: 1px solid #e5e5e5;}
+.form-filed input[type="submit"], .form-filed input[type="submit"]:hover, .form-filed input[type="submit"]:active, .form-filed input[type="submit"]:focus {background: transparent;font-size: 16px;text-transform: uppercase;color: #1e1e1e;font-family: 'Montserrat', sans-serif;max-width: 100px;margin: 0 auto;display: block;border: 1px solid #1e1e1e;font-weight: 700;}
+.driver-signup-form h3:after {height: 7px;width: 60px;background: #fff;display: block;content: '';margin: auto;border-style: solid;border-color: #1e1e1e;border-width: 1px 0px 1px 0px;margin-bottom: 10px;}
+/*end*/
+
+
+/*brands*/
+.brands-item h4 {color: #1e1e1e;font-size: 18px;font-family: 'Montserrat', sans-serif;font-weight: 700; padding: 10px 0;}
+.brands-item p {line-height: 24px;font-size: 14px;color: #676767;}
+.brands-item {background: #fff;text-align: center;padding: 20px;height: 100%; box-shadow: 0 0 20px rgba(0,0,0,0.05);}
+.brands-area-text p {font-size: 24px;line-height: 40px;font-family: 'Montserrat', sans-serif;font-weight: 400;color: #333;}
+.brands-area-img img {display: block;}
+.brands-text {padding: 30px 0;}
+.brands-area-text h3 {font-size: 30px;font-weight: 800;color: #1e1e1e;padding: 10px 0; font-family: 'Montserrat', sans-serif;}
+.brands-signup-form {max-width: 100%;background: transparent;padding: 20px 5%;margin: 0 auto;border-radius:0;-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);}
+.form-filed textarea {color: #fff; width: 100%;border-radius: 0;border: 1px solid #fff;background: transparent;height: 110px; font-size: 16px; padding: 10px;}
+.brands-signup-form .form-filed input[type="submit"] {background: #000;margin: 0;max-width: 100%;color: #fff;border-radius: 0; font-size: 16px;}
+.brands-signup-form .form-filed input { color: #fff; background: transparent;border: 1px solid #fff !important;height: 50px;padding-left: 15px;font-size: 18px;}
+.brands-signup-form {margin: 15px auto;max-width: 750px;}
+.brand-form-area:after {content: '';height: 100%;width: 100%;position: absolute;background: linear-gradient(#010101, transparent);top: 0;z-index: -1;opacity: 0.5;}
+.brand-form-area {z-index: 0;background:#000;padding: 100px 0;background-attachment: fixed;background-position: center;position: relative; -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%); clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);}
+.brands-area-text {padding: 0 0 50px 0; }
+.brand-form-area .heading-area h2 {color: #fff;}
+.brand-form-area .heading-area {padding: 10px 0;}
+/*end*/
+
+/*technology*/
+.technology-area .heading-area {padding: 30px 0;}
+.technology-area p {font-size: 20px;line-height: 30px;margin-bottom: 10px;font-family: 'Montserrat', sans-serif;}
+/*end*/
+
+/*fixed chimp*/
+.chimp-area {position: fixed;width: 300px;bottom: 0;right: 15px;z-index: 9; transition: 0.3s ease;bottom: -471px;}
+.chimp-form {background: #efefef; padding: 15px;}
+.chimp-area h3 {background: #111111;padding: 10px;font-size: 18px;font-family: 'Montserrat', sans-serif;text-transform: uppercase;font-weight: 700;color: #fff;border: 1px solid #fff; cursor: pointer;}
+.chimp-area.show {bottom: 0;}
+.chimp-area .form-field textarea {height: 80px; font-size: 14px; background: transparent}
+.chimp-area .form-field input {height: 35px; font-size: 14px;}
+.chimp-form .form-field {position: relative; padding: 5px 0;}
+.chimp-form .form-field input {width: 100%;height: 45px;border: 0;border-radius: 0;background: transparent;border-bottom: 1px solid #000; font-size: 16px;}
+.contact-form-area {background: #fff; padding: 50px; top: -100px; box-shadow: 0 5px 25px rgba(0,0,0,.5); position: relative;}
+.chimp-form .form-field textarea {width: 100%; border: 0; border-bottom: 1px solid #000; border-radius: 0; height: 155px; font-size: 16px;}
+.chimp-form .form-field input[type="submit"]:hover {background: transparent; color: #000;}
+.chimp-form .form-field input[type="submit"] {background: #000;font-size: 18px;border: 0;text-transform: uppercase;color: #fff;border-radius: 0;max-width: 130px;transition: 0.3s ease;border: 1px solid #000;}
+
+
+/*end*/
+
+/*responsive*/
+
+@media(max-width:1500px){
+    .text-area p {font-size: 16px; line-height: 26px;}
+    .expansive-text h2 {font-size: 36px; margin-bottom: 10px;}
+    .text-area {max-width: 550px;}
+}
+
+@media(max-width:1199px){
+    .menu-area ul li a {padding: 24px 12px;}
+    .custom-header{ height: 125px;}
+    .banner-caption h1 {font-size: 50px;}
+    .expansive-text h2 {font-size: 28px;}
+    .text-area p {font-size: 14px; line-height: 24px;}
+    .text-area {max-width: 420px;}
+    .technology-img {max-width: 750px;}
+}
+
+@media (max-width:991px){
+    .vidoe-content h1{ font-size: 36px;}
+    .video-area{ padding: 5% 0;}
+    .banner-caption h1 {font-size: 40px; margin: 10px 0;}
+    .banner-caption p{ line-height: 26px;}
+    .text-area {position: static;transform: translate(0);max-width: 750px;padding: 0 15px;}
+}
+
+@media(max-width:767px){
+    .banner-text{ width: 100%;}
+    .banner-caption h1 {font-size: 36px;}
+    .banner-caption p {line-height: 24px;font-size: 16px;}
+    .banner-caption{ padding: 15px;}
+    .banner-caption {top: 60%;}
+    .text-area {max-width: 550px;}
+    .toogler button {height: 50px;width: 50px;color: #000;padding: 0;font-size: 36px;border: 0;background: transparent;display: block;margin: 0;}
+    .toogler button:hover, .toogler button:active, .toogler button:focus{ background: transparent; outline: none; box-shadow: none; color:#000;}
+    .toogler {display: inline-block;}
+    .logo-area {max-width: 209px;}
+    .menu-area ul li {display: block;}
+    .custom-header {height: auto; padding-bottom: 40px;}
+    .menu-area ul li a {padding: 13px 12px; border-bottom: 1px solid #e5e5e5;}
+    .menu-area ul li:last-child a {border-bottom: 0;}
+    .toogles {text-align: right;}
+    .search-icon {font-size: 24px; color: #000;}
+    .menu-area {display: none; text-align: left;}
+    .uppter-footer {-webkit-clip-path: polygon(0% 6%, 100% 0%, 100% 100%, 0% 100%);clip-path: polygon(0% 6%, 100% 0%, 100% 100%, 0% 100%);}
+    .uppter-footer h3 {font-size: 26px;}
+    .brands-item {height: auto;margin-bottom: 25px;}
+    .driver-page-area {clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);-webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);}
+}
+
+@media(max-width:574px){
+    .custom-header {-webkit-clip-path: polygon(0 0, 100% 0, 100% 71%, 0 100%);clip-path: polygon(0 0, 100% 0, 100% 71%, 0 100%);padding-bottom: 30px;height: auto;}
+    .banner-area {margin-top: 63px;}
+    .vidoe-content h1 {font-size: 30px;}
+    .video {border: 10px solid black;}
+    .expansive-text{ padding: 30px 0;}
+    .banner-caption h1 {font-size: 30px;}
+    .trucking-area-text h4 {font-size: 36px;}    
+    .trucking-text h3 {font-size: 22px;transform: translate(0, 0);padding: 30% 0; position: static;}
+    .contact-form-area{ padding: 30px;}
+}
+
+@media(max-width:400px){
+    .banner-caption h1 {font-size: 26px;}
+    .banner-caption p {line-height: 20px;font-size: 14px; padding: 0;}
+    .toogler button {height: 40px;width: 40px;}
+    .banner-caption {padding: 0 15px;}
+    .banner-caption {top: 60%;}
+    .expansive-text h2 {font-size: 24px;}
+    .technology h2 {font-size: 50px;}
+    .banner-caption h1 {font-size: 22px;}
+    .technology {text-align: center;}
+    .banner-caption a {height: 40px;line-height: 40px;font-size: 15px;max-width: 140px;}
+    .contact-form-area{ padding: 10px;}
+    .vidoe-content h1 {font-size: 26px;}
+    .uppter-footer h3 {font-size: 20px;}
+    .chimp-area{ right: 8px;}
+    
+}
