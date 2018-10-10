@@ -38,7 +38,7 @@ input:active, input:focus, textarea:active, textarea:focus{ outline: none; box-s
 /*end*/
 
 /*heading*/
-.heading-area h2:after {content: '';height: 5px;width: 50px;border-style: solid;border-color: #333;display: block;left: 0;right: 0;margin: 10px auto 0;border-width: 1px 0 1px 0px;}
+.heading-area h2:after {content: '';height: 5px;width: 90px;border-style: solid;border-color: #333;display: block;left: 0;right: 0;margin: 10px auto 0;border-width: 1px 0 1px 0px;}
 /*end*/
 
 /*video area*/
