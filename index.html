@@ -16,18 +16,57 @@
     <script src="js/wow.min.js"></script>
 </head>
 <body>
+    <!-- The Modal -->
+    <div class="modal animated fadeInDown" id="singUp">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title">Driver Signup</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="driver-signup-form">
+                        <p>Please Enter You Details</p>
+                        <div class="form-fields-area">
+                            <div class="form-filed">
+                                <input type="text" placeholder="Full Name">
+                            </div>
+                            <div class="form-filed">
+                                <input type="email" placeholder="Email Address">
+                            </div>
+                            <div class="form-filed">
+                                <input type="text" placeholder="Phone Number">
+                            </div>
+                            <div class="form-filed">
+                                <input type="text" placeholder="Car Color">
+                            </div>
+                            <div class="form-filed">
+                                <input type="text" placeholder="Car Make, Model & Year">
+                            </div>
+                            <div class="form-filed">
+                                <input type="submit" value="Sign up">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--header area-->
     <header class="custom-header">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-3 order-md-1 col-md-4 col-7">
+                <div class="col-lg-6 order-lg-1 col-7">
                     <div class="logo-area">
                         <a href="javascipt:;">
                             <img src="images/logo.png" alt="" class="img-fluid">
+                            <span>Mobile Advertising Experience</span>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-1 order-md-3 col-md-1 col-5">
+                <div class="col-lg-1 order-lg-3 col-5">
                     <div class="toogles">
                         <div class="toogler">
                             <button id="toggle" type="button"><i class="fa fa-bars"></i> </button>
@@ -37,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-7 order-md-2 ">
+                <div class="col-lg-5 order-lg-2">
                     <div class="menu-area">
                         <ul>
                             <li><a href="#driver">Driver</a></li>
@@ -53,33 +92,55 @@
 <div id="fullpage">
     <!--banner area-->
     <div class="banner-area section">
-        <div class="banner-text">
-            <div class="container">
-                <div class="banner-caption wow fadeIn">
-                    <h1>Wrap your car or truck and start earning</h1>
-                    <a href="#driverForm">Apply To Drive</a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner-img">
+                        <div class="banner-caption wow fadeIn">
+                            <h1>Advertise with your car or truck to start earning</h1>
+                        </div>                
+                        <img src="images/banner-bg.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="driver-form-area">
+                        <div class="driver-signup-form">
+                            <h3>Driver Signup</h3>   
+                            <p>Please Enter You Details</p>
+                            <div class="form-fields-area">
+                                <div class="form-filed">
+                                    <input type="text" placeholder="Full Name">
+                                </div>
+                                <div class="form-filed">
+                                    <input type="email" placeholder="Email Address">
+                                </div>
+                                <div class="form-filed">
+                                    <input type="text" placeholder="Phone Number">
+                                </div>
+                                <div class="form-filed">
+                                    <input type="text" placeholder="Car Color">
+                                </div>
+                                <div class="form-filed">
+                                    <input type="text" placeholder="Car Make, Model & Year">
+                                </div>
+                                <div class="form-filed">
+                                    <input type="submit" value="Sign up">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <img src="images/tesla-semi-truck-lastwagen.jpg" alt="" class="img-fluid">
     </div>
     <!--banner area end-->
 
     <!--video-area-->
     <section class="video-area section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="vidoe-content">
-                        <h1>WRAPHAUL CARRIER PARTNERS EARN ANOTHER REVENUE STREAM FOR SIMPLY DRIVING!</h1>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="video wow fadeInUp">
-                        <iframe src="https://player.vimeo.com/video/275676786?loop=1&color=fff" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        <script src="https://player.vimeo.com/api/player.js"></script>
-                    </div>
-                </div>
+            <div class="video wow fadeInUp">
+                <iframe src="https://player.vimeo.com/video/275676786?loop=1&color=fff" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <script src="https://player.vimeo.com/api/player.js"></script>
             </div>
         </div>
     </section>
@@ -90,18 +151,17 @@
         <div class="container">
             <div class="heading-area">
                 <h2>Driver</h2>
-                <p>What make us special!</p>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="driver-text">
                         <div class="icon">
-                            <img src="images/icon1-2.svg" alt="" class="first-icon">
-                            <img src="images/icon1.svg" alt="" class="second-icon">
+                            <img src="images/sheat-2.svg" alt="" class="first-icon">
+                            <img src="images/sheat.svg" alt="" class="second-icon">
                         </div>
                         <div class="text">
-                            <h4>No costs to you, period</h4>
-                            <p>We install, maintain, and remove the wraps from your vehicle or semi trailer, all for free. Start making more money for simply driving, costing you absolutely nothing.</p>
+                            <h4>Interior</h4>
+                            <p>Our interior advertising campaigns enhance the rider experience.</p>
                         </div>
                     </div>
                 </div>
@@ -112,8 +172,32 @@
                             <img src="images/icon2.svg" alt="" class="second-icon">
                         </div>
                         <div class="text">
+                            <h4>Exterior</h4>
+                            <p>WrapHaul’s adhesive wraps protect your vehicle and or semi trailer. Our safe wraps go on and come off by professionals who guarantee their work.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="driver-text">
+                        <div class="icon">
+                            <img src="images/Installation-2.svg" alt="" class="first-icon">
+                            <img src="images/Installation.svg" alt="" class="second-icon">
+                        </div>
+                        <div class="text">
                             <h4>Installation</h4>
-                            <p>Our nationwide professional wrap partners will get you up and running on your schedule. No missing days of driving.</p>
+                            <p>Whether it is an interior marketing campaign or exterior professional wrap, our installation process is quick and easy, on your schedule, with no missed days of work.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="driver-text">
+                        <div class="icon">
+                            <img src="images/no-cost-2.svg" alt="" class="first-icon">
+                            <img src="images/no-cost.svg" alt="" class="second-icon">
+                        </div>
+                        <div class="text">
+                            <h4>No cost to you, period</h4>
+                            <p>We install, maintain, and remove the campaigns from your vehicle or semi trailer, all for free; costing you absolutely nothing.</p>
                         </div>
                     </div>
                 </div>
@@ -124,8 +208,8 @@
                             <img src="images/icon3.svg" alt="" class="second-icon">
                         </div>
                         <div class="text">
-                            <h4>Safe & Professional Wraps</h4>
-                            <p>WrapHaul’s adhesive wraps protect your vehicle and or semi trailer. Our safe wraps go on and come off by professionals who guarantee their work.</p>
+                            <h4>Safe & Professional</h4>
+                            <p>Rest assured that your vehicle will be protected no matter what type of campaign you are matched with. Professional installation of our campaigns is a top priority.</p>
                         </div>
                     </div>
                 </div>
@@ -141,30 +225,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="driver-text">
-                        <div class="icon">
-                            <img src="images/icon5-2.svg" alt="" class="first-icon">
-                            <img src="images/icon5.svg" alt="" class="second-icon">
-                        </div>
-                        <div class="text">
-                            <h4>Where do I get wrapped?</h4>
-                            <p>Our professional wrap partners are located throughout the country. WrapHaul makes sure to connect you to someone near your regular routes.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="driver-text">
-                        <div class="icon">
-                            <img src="images/icon6-2.svg" alt="" class="first-icon">
-                            <img src="images/icon6.svg" alt="" class="second-icon">
-                        </div>
-                        <div class="text">
-                            <h4>Is my entire vehicle or trailer wrapped?</h4>
-                            <p>We offer full or partial wraps for your vehicle or trailer to be wrapped.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -177,7 +237,7 @@
                 <div class="col-lg-6">
                     <div class="how-to-get-paid">
                         <ul>
-                            <li> <i class="fa fa-check-circle-o"></i> <span>Sign up to be a part of our driver network</span></li>
+                            <li> <i class="fa fa-pencil"></i> <span>Sign up to be a part of our driver network</span></li>
                             <li> <i class="fa fa-check-circle-o"></i> <span>Get matched with top brands looking to advertise on the routes you already drive.</span></li>
                             <li> <i class="fa fa-download"></i> <span>Download driver app.</span></li>
                             <li> <i class="fa fa-dollar"></i> <span>Earn more money for the miles you already drive!</span></li>
@@ -203,10 +263,7 @@
                                     <input type="text" placeholder="Car Color">
                                 </div>
                                 <div class="form-filed">
-                                    <input type="text" placeholder="Car Make, Modal & Year">
-                                </div>
-                                <div class="form-filed">
-                                    <input type="text" placeholder="Why do you drive for ?">
+                                    <input type="text" placeholder="Car Make, Model & Year">
                                 </div>
                                 <div class="form-filed">
                                     <input type="submit" value="Sign up">
@@ -234,29 +291,47 @@
                 </div>
                 <div class="col-lg-4 col-md-5">
                     <div class="brands-area-img">
-                        <img src="images/hand.png" alt="" class="img-fluid" >
+                        <img src="images/pexels-photo.jpg" alt="" class="img-fluid" >
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="callto-action-ara">
+            <div class="container">
+                <div class="call-to-action-btn">
+                    <a href="javascript:;" data-toggle="modal" data-target="#singUp">Sign up</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
             <div class="brands-text">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="brands-item">
-                            <img src="images/icon2.jpg" alt="">
+                            <div class="brands-icon">
+                                <img src="images/analytics-2.svg" alt="">
+                                <img src="images/analytics.svg" alt="">
+                            </div>
                             <h4>Measure each ride. Unlock insights.</h4>
                             <p>We are not just a wrap company. We are a technology driven advertising company providing effective analytics to our customers in real-time from our drivers, during each trip they complete. Whether it is on our semi trailers moving nationwide or a rideshare driver completing 100 trips per week, we always know where your campaign is located.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="brands-item">
-                            <img src="images/icon1.jpg" alt="">
+                            <div class="brands-icon">
+                                <img src="images/repote-2.svg" alt="">
+                                <img src="images/repote.svg" alt="">
+                            </div>
                             <h4>Monthly Reporting</h4>
                             <p>WrapHaul will report where your campaign was driven, how many trips were completed as well as provide “in car” advertising product placement campaigns with available surveys. We allow your brand to reach new markets while gaining insight on your consumers thoughts about your product.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="brands-item">
-                            <img src="images/icon3.jpg" alt="">
+                            <div class="brands-icon">
+                                <img src="images/car_location-2.svg" alt="">
+                                <img src="images/car_location.svg" alt="">
+                            </div>
                             <h4>Live Tracking</h4>
                             <p>WrapHaul’s technology has the capability to track our drivers in real-time. This allows us to provide our advertising and brand partners with updates on campaign locations and re-route drivers into high traffic locations. With real time visibility on our powerful moving marketing campaigns, WrapHaul creates captured specific routing targeting new consumers while creating an ROI for our brand and agency partners.</p>
                         </div>
@@ -265,16 +340,10 @@
             </div>
             <hr>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <div class="brands-area-text">
-                        <h3>Collaboration</h3>
+                        <h3>About us</h3>
                         <p>WrapHaul is the newest way for your brand to connect with an already captive audience. From exterior vehicle and semi trailer advertising to interior product placement and giveaways, WrapHaul has the network of drivers that are ready to bring your brand valuable visibility in a highly targeted environment.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="brands-area-text">
-                        <h3>Product Validity </h3>
-                        <p>Measure impact and conversion by having our driver partners place product in their vehicles to reach new markets and survey passengers. Our driver partners will promote new products with passengers creating an invaluable in vehicle experience for your targeted audience. </p>
                     </div>
                 </div>
             </div>
@@ -313,167 +382,81 @@
     <!--Brands & Agencies area end-->
 
     <!--Technology area-->
-    <section class="technology-area" id="technology">
+    <section class="technology-page-area" id="driver">
         <div class="container">
             <div class="heading-area">
                 <h2>Technology</h2>
             </div>
-            <div class="technology-area">
-                <p>WrapHaul understands your brand means everything to your organization. We invest heavily to insure our brand and agency partners know where their moving billboards are located in real time, anytime.</p>
-                <p>Track every trip your brand takes in real time.</p>
-                <p>Geofence alerting allows us to notify brands when a driver enters or departs certain places.</p>
-                <p>Weekly or monthly reporting provided so you can view every trip taken, view the time of day your billboard was active, start and end addresses along with total distances driven per driver. </p>
-                <p>Ability to pinpoint travel patterns and optimize driver routes to improve impressions.</p>
-                <p>On our google search it should say the below</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="driver-text">
+                        <div class="icon">
+                            <img src="images/heart-2.svg" alt="" class="first-icon">
+                            <img src="images/heart.svg" alt="" class="second-icon">
+                        </div>
+                        <div class="text">
+                            <p>WrapHaul understands your brand means everything to your organization. We invest heavily to insure our brand and agency partners know where their moving billboards are located in real time, anytime.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="driver-text">
+                        <div class="icon">
+                            <img src="images/car_location-2.svg" alt="" class="first-icon">
+                            <img src="images/car_location.svg" alt="" class="second-icon">
+                        </div>
+                        <div class="text">
+                            <p>Track every trip your brand takes in real time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="driver-text">
+                        <div class="icon">
+                            <img src="images/map-2.svg" alt="" class="first-icon">
+                            <img src="images/map.svg" alt="" class="second-icon">
+                        </div>
+                        <div class="text">
+                            <p>Geofence alerting allows us to notify brands when a driver enters or departs certain places.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="driver-text">
+                        <div class="icon">
+                            <img src="images/repote-2.svg" alt="" class="first-icon">
+                            <img src="images/repote.svg" alt="" class="second-icon">
+                        </div>
+                        <div class="text">
+                            <p>Weekly or monthly reporting provided so you can view every trip taken, view the time of day your billboard was active, start and end addresses along with total distances driven per driver.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="driver-text">
+                        <div class="icon">
+                            <img src="images/pin-2.svg" alt="" class="first-icon">
+                            <img src="images/pin.svg" alt="" class="second-icon">
+                        </div>
+                        <div class="text">
+                            <p>Ability to pinpoint travel patterns and optimize driver routes to improve impressions.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!--Technology area end-->
 
-    <!--EXPANSIVE ADVERTISING-->
-    <!--<section class="expansive-advertising-area">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="expansive-text wow fadeInLeft">
-                        <div class="text-area">
-                            <h2>EXPANSIVE ADVERTISING COVERAGE LOCALLY OR NATIONWIDE</h2>
-                            <p>WrapHaul is a proven, powerful solution to gain millions of impressions daily. Our semi truck billboards are a unique way for you to reach new audiences, locally and nationwide.</p>
-                            <p>We work directly with the Federal Motor Carrier Safety Administration to only partner with the safest, Eco-friendly carriers on the road.</p>
-                            <p>Whether it is one WrapHaul carrier partner running locally or five thousand WrapHaul carrier partners running lanes throughout the country, we have the resources for your next marketing campaign.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="expansive-advertising-img wow fadeInRight">
-                        <img src="images/pexels-photo-1162968.jpeg" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-    <!--EXPANSIVE ADVERTISING end-->
-    
-    <!--EXPANSIVE ADVERTISING-->
-    <!--<section class="technology-area">
-        <div class="container">
-            <div class="technology-img wow fadeInDown">
-                <img src="images/all-mac-smartmockups2.png" alt="" class="img-fluid">
-            </div>
-        </div>
-        <div class="technology">
-            <div class="container">
-                <h4>ADAPTIVE TECHNOLOGY WHICH ALLOWS</h4>
-                <h2>WrapHaul</h2>
-                <p>TO PROVIDE BRANDS & AGENCIES UPDATES ON WHERE THE BILLBOARD CAMPAIGN IS LOCATED ANYTIME, ANYWHERE!</p>
-            </div>
-        </div>
-    </section>-->
-    <!--EXPANSIVE ADVERTISING end-->
-
-    <!--trucking area-->
-    <!--<section class="trucking-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="trucking-area-text wow fadeInLeft">
-                        <p>Consistent cash flow for trucking companies and real value plus fair pricing for Brands & Agencies.</p>
-                        <h4>WE CALL THIS WINNING!</h4>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="trucking-img wow fadeInLeft" data-wow-delay="0.5s">
-                                <img src="images/delivery-truck1.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="trucking-text wow fadeInLeft" data-wow-delay="0.6s">
-                                <h3>Short Box Van or <br> Refrigerated Trailer</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6 order-sm-2">
-                            <div class="trucking-img wow fadeInLeft" data-wow-delay="0.7s">
-                                <img src="images/delivery-truck2.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-sm-6 order-sm-1">
-                            <div class="trucking-text wow fadeInLeft" data-wow-delay="0.8s">
-                                <h3>48' & 53' Van or <br> Refrigerated Trailer</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-    <!--trucking area end-->
     <!--footer-area-->
     <footer class="custom-footer">
-        <div class="uppter-footer">
-            <div class="container">
-                <h3>Contact us for more details at <a href="mailto:info@WrapHaul.com">Info@wraphaul.com</a> or:</h3>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="footer-links">
-                            <div class="icon"><i class="fa fa-map-marker"></i></div>
-                            <p>222 Merchandise Mart Plaza<br>P.0. Box 3605<br>Chicago, IL 60654-3605</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="footer-links">
-                            <div class="icon"><i class="fa fa-envelope-o"></i></div>
-                            <p><a href="mailto:info@WrapHaul.com">Info@wraphaul.com</a> </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="footer-links">
-                            <ul>
-                                <li><a href="javacript:;" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
-                                <li><a href="javacript:;" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="javacript:;" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="lower-footer">
             <div class="copy-rights">
-                <p>COPYRIGHT 2018 WRAPHAUL, LLC | DEVELOPED BY <a href="https://www.ogrelogic.com/" target="_blank">Ogrelogic</a></p>
+                <p>COPYRIGHT 2018 Powered by | <a href="https://www.ogrelogic.com/" target="_blank"> WrapHaul, LLC</a></p>
             </div>
         </div>
     </footer>
     <!--footer-area-end-->
-
-    <!--fixed-chat-->
-    <div class="chimp-area">
-        <h3>Keet In Touch</h3>
-        <div class="chimp-form">
-            <div class="form-field">
-                <input type="text" placeholder="Name">
-            </div>
-            <div class="form-field">
-                <input type="text" placeholder="Phone">
-            </div>
-            <div class="form-field">
-                <input type="text" placeholder="Email">
-            </div>
-            <div class="form-field">
-                <input type="text" placeholder="Company or Independent ">
-            </div>
-            <div class="form-field">
-                <textarea placeholder="Message"></textarea>
-            </div>
-            <div class="form-field">
-                <input type="submit" value="Send">
-            </div>
-        </div>
-    </div>
-    <!--fixed-chat end-->
 </div>
     <script src="js/local.js"></script>
 </body>
